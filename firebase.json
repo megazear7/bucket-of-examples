@@ -17,6 +17,14 @@
     ],
     "rewrites": [
       {
+        "source": "/kaelino",
+        "destination": "/kaelino/index.html"
+      },
+      {
+        "source": "/kaelino/**",
+        "destination": "/kaelino/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
