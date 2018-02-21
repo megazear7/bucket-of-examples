@@ -12,13 +12,72 @@
     <script defer src="/__/firebase/4.10.0/firebase-storage.js"></script>
     <script defer src="/__/firebase/init.js"></script>
 
-    <link href="/kaelino/main.css" rel="stylesheet" type="text/css">
+    <style>
+      body {
+        background: #ECEFF1;
+        color: rgba(0,0,0,0.87);
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      h2 {
+        color: #ffa100;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0 0 8px;
+      }
+
+      h1 {
+        font-size: 22px;
+        font-weight: 300;
+        color: rgba(0,0,0,0.6);
+        margin: 0 0 16px;
+      }
+
+      p {
+        line-height: 140%;
+        margin: 16px 0 24px;
+        font-size: 14px;
+      }
+
+      .btn {
+        display: block;
+        text-align: center;
+        background: #039be5;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        padding: 16px;
+        border-radius: 4px;
+      }
+
+      .btn {
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      }
+
+      @media (max-width: 600px) {
+        body {
+          margin-top: 0;
+          background: white;
+          box-shadow: none;
+        }
+
+        body {
+          border-top: 16px solid #ffa100;
+        }
+      }
+    </style>
+
+    <script type="module">
+      import KaelinoCard from "./components/kaelino-card.js"
+    </script>
   </head>
   <body>
-    <div class="card">
+    <kaelino-card>
       <h2>Welcome</h2>
       <h1>Kaelino's Tree Service</h1>
       <p>This is intended to be an example web app with a simple business case; a small tree services business.</p>
-    </div>
+    </kaelino-card>
   </body>
 </html>
