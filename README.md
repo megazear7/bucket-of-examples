@@ -1,14 +1,8 @@
-# Kaelino Tree Service
+# Bucket of Examples
 
-https://bucket-of-examples.firebaseapp.com/kaelino
+> A set of example projects hosted on firebase using a similiar suite of technologies.
 
-###### Deploy
-`firebase deploy`
-
-###### Run Local
-`firebase serve`
-
-### Technologies
+#### Technologies
 
 * Hosted on Firebase
 * Progressive Web App
@@ -23,3 +17,16 @@ https://bucket-of-examples.firebaseapp.com/kaelino
 * Web Components
 * hyperHtml for client side rendering
 * viperHtml for server side rendering for SEO
+
+## Kaelino Tree Service
+
+https://bucket-of-examples.firebaseapp.com/kaelino
+
+###### Deploy
+`firebase deploy`
+
+###### Run Local
+`firebase serve`
+
+###### Code
+`/public/kaelino/index.html`
