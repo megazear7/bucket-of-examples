@@ -5,3 +5,5 @@ package-lock.json
 functions/package-lock.json
 
 firebase-debug.log
+
+.firebase
