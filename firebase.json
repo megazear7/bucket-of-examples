@@ -24,6 +24,7 @@
         "source": "/kaelino/**",
         "destination": "/kaelino/index.html"
       },
+
       {
         "source": "**",
         "destination": "/index.html"
